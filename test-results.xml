@@ -1,0 +1,12 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="4.000565999999999">
+<testsuite name="saucedemo\checkout.spec.ts" timestamp="2026-07-08T00:18:26.615Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.587" errors="0">
+<testcase name="checkout page tests › Verify cancel button in checkout overview page" classname="saucedemo\checkout.spec.ts" time="2.587">
+<system-out>
+<![CDATA[cartItemcount:  1
+
+[[ATTACHMENT|test-results\saucedemo-checkout-checkou-284a4-n-in-checkout-overview-page-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
