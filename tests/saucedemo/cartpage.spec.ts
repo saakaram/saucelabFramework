@@ -25,7 +25,7 @@ test.describe('Cart page tests', () => {
     });
 
 
-    test.only('remove product from cart and verify cart count', async ({ productPage,cartPage }) => {
+    test('remove product from cart and verify cart count', async ({ productPage,cartPage }) => {
         //await productPage.goToCart();
         //await expect(await cartPage.isCartPageLoaded()).toBeTruthy();
         await cartPage.removeProductFromCart('Sauce Labs Bolt T-Shirt');
