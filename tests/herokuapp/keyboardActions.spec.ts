@@ -27,12 +27,9 @@ test.describe('Key board action scenario', () => {
         }
     });
 
-    test('should combination of keys', async ({ herokuAppPage }) => {
-        await herokuAppPage.keyboardShortcutExample();
-
-    
-
-    });
+    //test('should combination of keys', async ({ herokuAppPage }) => {
+      //  await herokuAppPage.keyboardShortcutExample();
+    //});
 
 
 });

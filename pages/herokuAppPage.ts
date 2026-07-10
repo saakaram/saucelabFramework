@@ -162,6 +162,7 @@ async typeText(text: string) {
 await this.page.keyboard.type(text);
 }
 
+
 async keyboardShortcutExample() {
       await this.page.locator('#target').click();
       await this.page.keyboard.type('Hello, World!');
@@ -184,6 +185,6 @@ async keyboardShortcutExample() {
         await this.page.keyboard.press('Control+A');
         await this.page.keyboard.press('Control+C');
         await this.page.keyboard.press('Control+V');
-    }
+    } 
 
 }
