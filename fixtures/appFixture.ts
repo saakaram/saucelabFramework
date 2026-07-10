@@ -28,11 +28,11 @@ export const test = base.extend<PageFixture>({
 
     checkoutPage: async ({ page }, use) => {
         await use(new CheckoutPage(page));
-  }
+  },
   
-    //herokuAppPage: async ({ page }, use) => {
-     //   await use(new HerokuAppPage(page));
-    //}
+    herokuAppPage: async ({ page }, use) => {
+        await use(new HerokuAppPage(page));
+    }
 
 });
 
